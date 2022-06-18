@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(15, 214, 236);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    font-family: 'Odibee Sans', cursive;
+}
+
+.head{
+    font-weight: 800;
+    color: rgb(255, 213, 0);
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: rgb(109, 175, 255);
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 10px; 
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 213, 0);
+    color: #fff;
+    margin: 0.25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: black;
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
+}
+
+.item-input{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+.editbtn{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Odibee Sans', cursive;
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.removebtn{
+    font-size: 1.4rem;
+    font-family: 'Odibee Sans', cursive;
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.editbtn:hover{
+    color: rgb(255, 213, 0);
+}
+.removebtn:hover{
+    color: rgb(255, 34, 0);
+}
